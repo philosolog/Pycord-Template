@@ -1,6 +1,6 @@
 # A Pycord Discord Bot Template
 
-My ***personal***, modern, and type-safe Discord bot template
+My ***personal***, modern, and type-safe Discord bot template written in Python with [Pycord](https://pycord.dev/).
 
 ## Features
 - [uv](https://github.com/astral-sh/uv) for fast dependency management
@@ -97,5 +97,6 @@ Cogs are automatically loaded from the `cogs/` directory when the bot starts.
 ### Debug/Testing Configuration
 
 For running a test bot alongside your main bot, you can add debug variables to your `.env` file.
+
 
 The bot will use `token_debug` and `uid_debug` if they exist, otherwise it falls back to `token` and `uid`. Simply comment out or remove the debug variables to switch back to your production bot.
