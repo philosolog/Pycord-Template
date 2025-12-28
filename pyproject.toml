@@ -1,0 +1,16 @@
+[project]
+name = "pycord-template"
+version = "2.0.0"
+description = "My modern Pycord Discord bot template for type safety and code quality tools"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "py-cord>=2.7.0",
+    "python-dotenv>=1.2.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.10",
+    "mypy>=1.19.1",
+]
