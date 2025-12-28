@@ -17,20 +17,13 @@ My ***personal***, modern, and type-safe Discord bot template written in Python 
 
 ### Installation
 
-1. **Clone the repository**:
-
-   ```bash
-   git clone <your-repo-url>
-   cd Pycord-Template
-   ```
-
-3. **Install dependencies**:
+1. **Install dependencies**:
 
    ```bash
    uv sync
    ```
 
-4. **Configure environment variables**:
+2. **Configure environment variables**:
 
    - Copy `.env.example` to `.env`
    - Get your bot token from the [Discord Developer Portal](https://discord.com/developers/applications)
@@ -40,7 +33,7 @@ My ***personal***, modern, and type-safe Discord bot template written in Python 
      uid=YOUR_BOT_ID_HERE
      ```
 
-5. **Run the bot**:
+3. **Run the bot**:
    ```bash
    uv run python main.py
    ```
@@ -100,3 +93,4 @@ For running a test bot alongside your main bot, you can add debug variables to y
 
 
 The bot will use `token_debug` and `uid_debug` if they exist, otherwise it falls back to `token` and `uid`. Simply comment out or remove the debug variables to switch back to your production bot.
+
