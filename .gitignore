@@ -27,7 +27,7 @@ pyrightconfig.json
 .ruff_cache/
 
 # Environment variables
-.env
+*.env
 
 # IDEs
 .vscode/
